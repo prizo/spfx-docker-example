@@ -40,8 +40,6 @@ exit
 
 ## Known issues
 
----
-
 ### Can't access workbench
 
 Open `node_modules\@microsoft\sp-build-web\lib\SPWebBuildRig.js` and change lines 96-98 from:
@@ -64,6 +62,7 @@ if (!spBuildCoreTasks.writeManifests.taskConfig.debugBasePath) {
 
 ## References
 
+- [SharePoint Framework Docker images](https://github.com/waldekmastykarz/docker-spfx)
 - [Getting started with Docker](https://docs.docker.com/get-started/)
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
 - [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
